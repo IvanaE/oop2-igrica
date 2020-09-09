@@ -1,0 +1,1447 @@
+# depslib dependency file v1.0
+1599661972 source:c:\users\ica\desktop\osnovna igrica\igrica\main.cpp
+	<iostream>
+	<fstream>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"engine.h"
+	"level.h"
+	"sprite.h"
+	"poklon.h"
+
+1599680091 c:\users\ica\desktop\osnovna igrica\igrica\engine.h
+	<fstream>
+	<string>
+	<vector>
+	<map>
+	<sstream>
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"drawable.h"
+	"movable.h"
+	"tileset.h"
+	"level.h"
+	"spritesheet.h"
+	"sprite.h"
+	"eventlistener.h"
+	"player.h"
+	"poklon.h"
+	"Group.h"
+	"protivnik.h"
+	"dedamraz.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\close_code.h
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561873968 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1584583780 c:\users\ica\desktop\osnovna igrica\igrica\drawable.h
+	<SDL2/sdl.h>
+
+1584583780 c:\users\ica\desktop\osnovna igrica\igrica\movable.h
+
+1584583778 c:\users\ica\desktop\osnovna igrica\igrica\tileset.h
+	<iostream>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1584583778 c:\users\ica\desktop\osnovna igrica\igrica\tile.h
+	<iostream>
+	<SDL2/SDL.h>
+
+1584583780 c:\users\ica\desktop\osnovna igrica\igrica\level.h
+	<iostream>
+	<vector>
+	"drawable.h"
+	"tileset.h"
+
+1584583780 c:\users\ica\desktop\osnovna igrica\igrica\spritesheet.h
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1599680029 c:\users\ica\desktop\osnovna igrica\igrica\sprite.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"drawable.h"
+	"movable.h"
+	"spritesheet.h"
+
+1584583780 c:\users\ica\desktop\osnovna igrica\igrica\eventlistener.h
+	<SDL2/SDL.h>
+
+1584583780 c:\users\ica\desktop\osnovna igrica\igrica\player.h
+	<SDL2/SDL.h>
+	"drawable.h"
+	"movable.h"
+	"keyboardeventlistener.h"
+	"sprite.h"
+
+1584583778 c:\users\ica\desktop\osnovna igrica\igrica\keyboardeventlistener.h
+	<SDL2/SDL.h>
+	"eventlistener.h"
+
+1599680242 source:c:\users\ica\desktop\osnovna igrica\igrica\engine.cpp
+	"engine.h"
+	<windows.h>
+
+1584583406 source:c:\users\ica\desktop\osnovna igrica\igrica\keyboardeventlistener.cpp
+	"keyboardeventlistener.h"
+
+1599567118 source:c:\users\ica\desktop\osnovna igrica\igrica\level.cpp
+	"level.h"
+
+1584583406 source:c:\users\ica\desktop\osnovna igrica\igrica\player.cpp
+	"player.h"
+
+1599679989 source:c:\users\ica\desktop\osnovna igrica\igrica\sprite.cpp
+	"sprite.h"
+
+1584583404 source:c:\users\ica\desktop\osnovna igrica\igrica\spritesheet.cpp
+	"spritesheet.h"
+
+1584583460 source:c:\users\ica\desktop\osnovna igrica\igrica\tile.cpp
+	"tile.h"
+
+1584583488 source:c:\users\ica\desktop\osnovna igrica\igrica\tileset.cpp
+	"tileset.h"
+
+1585155980 source:e:\osnovna igrica\igrica\engine.cpp
+	"engine.h"
+	<windows.h>
+
+1585150292 e:\osnovna igrica\igrica\engine.h
+	<fstream>
+	<string>
+	<vector>
+	<map>
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"drawable.h"
+	"movable.h"
+	"tileset.h"
+	"level.h"
+	"spritesheet.h"
+	"sprite.h"
+	"eventlistener.h"
+	"player.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\close_code.h
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561866768 e:\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1584580180 e:\osnovna igrica\igrica\drawable.h
+	<SDL2/sdl.h>
+
+1584580180 e:\osnovna igrica\igrica\movable.h
+
+1584580178 e:\osnovna igrica\igrica\tileset.h
+	<iostream>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1584580178 e:\osnovna igrica\igrica\tile.h
+	<iostream>
+	<SDL2/SDL.h>
+
+1584580180 e:\osnovna igrica\igrica\level.h
+	<iostream>
+	<vector>
+	"drawable.h"
+	"tileset.h"
+
+1584580180 e:\osnovna igrica\igrica\spritesheet.h
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1584580180 e:\osnovna igrica\igrica\sprite.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"drawable.h"
+	"movable.h"
+	"spritesheet.h"
+
+1584580180 e:\osnovna igrica\igrica\eventlistener.h
+	<SDL2/SDL.h>
+
+1584580180 e:\osnovna igrica\igrica\player.h
+	<SDL2/SDL.h>
+	"drawable.h"
+	"movable.h"
+	"keyboardeventlistener.h"
+	"sprite.h"
+
+1584580178 e:\osnovna igrica\igrica\keyboardeventlistener.h
+	<SDL2/SDL.h>
+	"eventlistener.h"
+
+1584579806 source:e:\osnovna igrica\igrica\keyboardeventlistener.cpp
+	"keyboardeventlistener.h"
+
+1585064104 source:e:\osnovna igrica\igrica\level.cpp
+	"level.h"
+
+1585151794 source:e:\osnovna igrica\igrica\main.cpp
+	<iostream>
+	<fstream>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"engine.h"
+	"level.h"
+	"sprite.h"
+
+1584579806 source:e:\osnovna igrica\igrica\player.cpp
+	"player.h"
+
+1584579806 source:e:\osnovna igrica\igrica\sprite.cpp
+	"sprite.h"
+
+1584579804 source:e:\osnovna igrica\igrica\spritesheet.cpp
+	"spritesheet.h"
+
+1584579860 source:e:\osnovna igrica\igrica\tile.cpp
+	"tile.h"
+
+1584579888 source:e:\osnovna igrica\igrica\tileset.cpp
+	"tileset.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1585770652 source:c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\engine.cpp
+	"engine.h"
+	<windows.h>
+
+1585153892 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\engine.h
+	<fstream>
+	<string>
+	<vector>
+	<map>
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"drawable.h"
+	"movable.h"
+	"tileset.h"
+	"level.h"
+	"spritesheet.h"
+	"sprite.h"
+	"eventlistener.h"
+	"player.h"
+
+1584583780 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\drawable.h
+	<SDL2/sdl.h>
+
+1584583780 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\movable.h
+
+1584583778 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\tileset.h
+	<iostream>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1584583778 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\tile.h
+	<iostream>
+	<SDL2/SDL.h>
+
+1584583780 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\level.h
+	<iostream>
+	<vector>
+	"drawable.h"
+	"tileset.h"
+
+1584583780 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\spritesheet.h
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1584583780 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\sprite.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"drawable.h"
+	"movable.h"
+	"spritesheet.h"
+
+1584583780 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\eventlistener.h
+	<SDL2/SDL.h>
+
+1584583780 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\player.h
+	<SDL2/SDL.h>
+	"drawable.h"
+	"movable.h"
+	"keyboardeventlistener.h"
+	"sprite.h"
+
+1584583778 c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\keyboardeventlistener.h
+	<SDL2/SDL.h>
+	"eventlistener.h"
+
+1584583406 source:c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\keyboardeventlistener.cpp
+	"keyboardeventlistener.h"
+
+1585067704 source:c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\level.cpp
+	"level.h"
+
+1585155394 source:c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\main.cpp
+	<iostream>
+	<fstream>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"engine.h"
+	"level.h"
+	"sprite.h"
+
+1584583406 source:c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\player.cpp
+	"player.h"
+
+1585768964 source:c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\sprite.cpp
+	"sprite.h"
+
+1584583404 source:c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\spritesheet.cpp
+	"spritesheet.h"
+
+1584583460 source:c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\tile.cpp
+	"tile.h"
+
+1584583488 source:c:\users\ica\desktop\faks\igrica c++\osnovna igrica\igrica\tileset.cpp
+	"tileset.h"
+
+1599679795 c:\users\ica\desktop\osnovna igrica\igrica\poklon.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<fstream>
+	<cstdlib>
+	<string>
+	<stdlib.h>
+	<time.h>
+	"drawable.h"
+	"movable.h"
+	"spritesheet.h"
+	"sprite.h"
+
+1599676390 source:c:\users\ica\desktop\osnovna igrica\igrica\poklon.cpp
+	"poklon.h"
+
+1599680190 c:\users\ica\desktop\osnovna igrica\igrica\group.h
+	<vector>
+	<fstream>
+	<cstdlib>
+	<string>
+	<math.h>
+	<stdlib.h>
+	<ctime>
+	<cstdlib>
+	"sprite.h"
+	"level.h"
+	"poklon.h"
+	"protivnik.h"
+	"dedamraz.h"
+
+1599680190 source:c:\users\ica\desktop\osnovna igrica\igrica\group.cpp
+	"group.h"
+
+1547325881 c:\users\ica\desktop\faks\singidunum\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1599676900 source:c:\users\ica\desktop\osnovna igrica\igrica\protivnik.cpp
+	"protivnik.h"
+
+1599679795 c:\users\ica\desktop\osnovna igrica\igrica\protivnik.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<fstream>
+	<cstdlib>
+	<string>
+	<stdlib.h>
+	<time.h>
+	"drawable.h"
+	"movable.h"
+	"spritesheet.h"
+	"sprite.h"
+	"poklon.h"
+
+1599680029 c:\users\ica\desktop\osnovna igrica\igrica\dedamraz.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<fstream>
+	<cstdlib>
+	<string>
+	<stdlib.h>
+	"drawable.h"
+	"movable.h"
+	"spritesheet.h"
+	"sprite.h"
+
+1599680048 source:c:\users\ica\desktop\osnovna igrica\igrica\dedamraz.cpp
+	"dedamraz.h"
+

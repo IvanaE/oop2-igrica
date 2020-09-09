@@ -1,0 +1,2 @@
+resources/opcije/glavnimeni.png
+b 0 0 384 640
