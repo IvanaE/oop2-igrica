@@ -107,7 +107,7 @@ void Engine::run()
         if(prosao == false)
         {
         prosao = true;
-        SDL_Texture *pozadina = SDL_CreateTextureFromSurface(renderer, IMG_Load("C:/Users/Ica/Desktop/Osnovna IGRICA/Igrica/resources/opcije/meni.png"));
+        SDL_Texture *pozadina = SDL_CreateTextureFromSurface(renderer, IMG_Load("C:/Users/Ica/Desktop/gitIgrica/Osnovna IGRICA/Igrica/resources/opcije/meni.png"));
         SDL_Rect *pozadina_rect = new SDL_Rect();
         pozadina_rect->x = 0;
         pozadina_rect->y = 0;
@@ -127,7 +127,7 @@ void Engine::run()
                     {
                         Sleep(200);
                         instr = true;
-                        SDL_Texture *pozadina = SDL_CreateTextureFromSurface(renderer, IMG_Load("C:/Users/Ica/Desktop/Osnovna IGRICA/Igrica/resources/opcije/instruction.png"));
+                        SDL_Texture *pozadina = SDL_CreateTextureFromSurface(renderer, IMG_Load("C:/Users/Ica/Desktop/gitIgrica/Osnovna IGRICA/Igrica/resources/opcije/instruction.png"));
                         SDL_RenderCopy(renderer, pozadina, NULL, pozadina_rect);
                         SDL_RenderPresent(renderer);
                     }
@@ -135,7 +135,7 @@ void Engine::run()
                     {
                         Sleep(200);
                         instr = false;
-                        SDL_Texture *pozadina = SDL_CreateTextureFromSurface(renderer, IMG_Load("C:/Users/Ica/Desktop/Osnovna IGRICA/Igrica/resources/opcije/meni.png"));
+                        SDL_Texture *pozadina = SDL_CreateTextureFromSurface(renderer, IMG_Load("C:/Users/Ica/Desktop/gitIgrica/Osnovna IGRICA/Igrica/resources/opcije/meni.png"));
                         SDL_RenderCopy(renderer, pozadina, NULL, pozadina_rect);
                         SDL_RenderPresent(renderer);
                     }
@@ -405,7 +405,7 @@ void Engine:: ispitivanjeKolizije()
 {
    g->kolizijasaPoklonom(sp, pok);
   // g->kolizijaMonstrumDeda(sp, protivnik);
-   g->kolizijaMonstrumPoklon(protivnik, pok);
+  // g->kolizijaMonstrumPoklon(protivnik, pok);
 }
 void Engine:: initDeda()
 {

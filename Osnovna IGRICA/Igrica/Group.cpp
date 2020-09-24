@@ -22,8 +22,7 @@ int  Group::kolizijasaPoklonom(Dedamraz *sprite, Poklon *poklon)
     {
 
         scor ++;
-       // cout <<"Trenutni broj sakupljenih poklona"<< scor;
-        //case funkciju za 5-6 slucajeva, i ond random uzmem da izaberem gde da stane
+
 
         poklon->spriteRect->x = poklon->randomBroj()*10;
         poklon->spriteRect->y = poklon->ogranicenje();
